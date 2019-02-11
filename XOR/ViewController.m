@@ -22,7 +22,7 @@
 }
 
 -(void)testFunction {
-    NSString *originalString = @"锦涛傻";
+    NSString *originalString = @"呵呵哒";
     NSString *keyString = @"hfiasfh";
     
     NSLog(@"original：%@",originalString);
