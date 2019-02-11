@@ -16,6 +16,8 @@
 		04751B671F2981C000FBEE57 /* XORTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04751B661F2981C000FBEE57 /* XORTests.m */; };
 		04751B721F2981C000FBEE57 /* XORUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04751B711F2981C000FBEE57 /* XORUITests.m */; };
 		04751B811F2986CC00FBEE57 /* XORManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04751B801F2986CC00FBEE57 /* XORManager.m */; };
+		047E7E3622115E4400CD91AE /* CodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E7E3422115E4400CD91AE /* CodingViewController.m */; };
+		047E7E3B22115E6F00CD91AE /* UnCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E7E3922115E6F00CD91AE /* UnCodingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		04751B731F2981C000FBEE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04751B7F1F2986CC00FBEE57 /* XORManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XORManager.h; sourceTree = "<group>"; };
 		04751B801F2986CC00FBEE57 /* XORManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XORManager.m; sourceTree = "<group>"; };
+		047E7E3322115E4400CD91AE /* CodingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodingViewController.h; sourceTree = "<group>"; };
+		047E7E3422115E4400CD91AE /* CodingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingViewController.m; sourceTree = "<group>"; };
+		047E7E3822115E6F00CD91AE /* UnCodingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnCodingViewController.h; sourceTree = "<group>"; };
+		047E7E3922115E6F00CD91AE /* UnCodingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnCodingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				04751B4C1F2981BF00FBEE57 /* Supporting Files */,
 				04751B7F1F2986CC00FBEE57 /* XORManager.h */,
 				04751B801F2986CC00FBEE57 /* XORManager.m */,
+				047E7E3322115E4400CD91AE /* CodingViewController.h */,
+				047E7E3422115E4400CD91AE /* CodingViewController.m */,
+				047E7E3822115E6F00CD91AE /* UnCodingViewController.h */,
+				047E7E3922115E6F00CD91AE /* UnCodingViewController.m */,
 			);
 			path = XOR;
 			sourceTree = "<group>";
@@ -282,7 +292,9 @@
 				04751B541F2981BF00FBEE57 /* ViewController.m in Sources */,
 				04751B511F2981BF00FBEE57 /* AppDelegate.m in Sources */,
 				04751B4E1F2981BF00FBEE57 /* main.m in Sources */,
+				047E7E3B22115E6F00CD91AE /* UnCodingViewController.m in Sources */,
 				04751B811F2986CC00FBEE57 /* XORManager.m in Sources */,
+				047E7E3622115E4400CD91AE /* CodingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RQ6EDG23C3;
 				INFOPLIST_FILE = XOR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuguangfu.XOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RQ6EDG23C3;
 				INFOPLIST_FILE = XOR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuguangfu.XOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +532,7 @@
 				04751B781F2981C000FBEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04751B791F2981C000FBEE57 /* Build configuration list for PBXNativeTarget "XORTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				04751B7B1F2981C000FBEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04751B7C1F2981C000FBEE57 /* Build configuration list for PBXNativeTarget "XORUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				04751B7E1F2981C000FBEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
